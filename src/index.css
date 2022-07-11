@@ -32,17 +32,16 @@ code {
 
 h1{
   background-color: rgb(243, 147, 168);
-  
-  font-family: 'Courier New', Courier, monospace;
+  font-family: cursive;
 }
 
 input{
-     border: none;
-     border-bottom: 5px rgb(243, 147, 168) solid;
-     background: transparent;
-     color: black;
-     text-align: center;
-     outline: none;
+  border: none;
+  border-bottom: 5px rgb(243, 147, 168) solid;
+  background: transparent;
+  color: black;
+  text-align: center;
+  outline: none;
 }
 
 button{
@@ -66,19 +65,18 @@ button:hover{
   display: flex;
   align-items: center;
   margin-top: 13%;
-  
-  
-   
 }
+
 li{
   position: absolute;
   list-style-type: none;
   left: 10%;
   top: -5px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: cursive;
   font-size: 20px;
   font-weight: bolder;
 }
+
 i{
   position: absolute;
   top: 50%;
@@ -91,4 +89,11 @@ i{
 i:hover{
   color: aliceblue;
   cursor: pointer;
+}
+
+@media all and (max-width:768px) {
+  #box{
+    width: 60%;
+    min-height: 43%;
+  }
 }
