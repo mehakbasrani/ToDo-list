@@ -96,4 +96,8 @@ i:hover{
     width: 60%;
     min-height: 43%;
   }
+
+  li{
+    left: 15%;
+  }
 }
